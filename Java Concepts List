@@ -1,0 +1,222 @@
+Java Concepts:
+
+-> Introduction:
+     + JDK
+     + JRE
+     + JVM
+     + Features of Java
+     + Java Memory Management
+     + Operators
+     + Control flow statements -> Loops, conditional staements etc...
+     + Unicode System 
+
+-> Class, Objects, and Types of Classes
+     + Naming conventions of Java
+        * Class Naming Convention:
+              1. Always has to be a Camel case starting with Uppercase
+              2. Class name should not be beyond 4 words anyday but should still be clear enough to read and understand what it contains. Should try and stay within 3 words as much as possible
+              3. Try to follow the following structure or dependency
+                    -> Controller
+                      -> ServiceImpl
+                        -> Service (Abstact Class)
+                          -> HelperClass
+                            -> Util(Static)
+ 
+              4. *** THERE SHOULD NOT BE ANY CODE DUPLICATES 
+
+         * Method naming convention:
+              1. Always has to be a Camel case starting with lowercase        
+              2. Method name should not be beyond 4 words anyday but should still be clear enough to read and understand what it contains. Should try and stay within 3 words as much as possible.
+
+
+     + Classes and objects
+     + Object declaration and initialization
+     + The life cycle of an object
+     + Anonymous object in Java
+
+-> Packages in Java
+     + How to declare a package in a company project
+          * Package Naming Convention:
+            1. Always use singular not plural
+            2. Composite words should not be a folder name within a package
+            3. Never bring _ or camel case into package names
+            4. When merging codes, always look for different packages which may be clubbed into 1
+            5. After finishing the code writing, always refactor the code to put all similar classes in one package and create sub packe to maintain seggregation
+            6. If a package has more than 5 classes, it might be a good candidate for further refactoring by sub-packages
+     + Package naming conventions
+     + Sub packages
+     + Types of packages such as user-defined packages, built-in packages
+     + Importing packages in Java
+
+
+-> Data Types in Java
+     + Data types in Java
+     + Primitive data types
+     + Non-primitive data types
+     + Memory allocation of primitive and non-primitive data types
+
+-> Variables, Constraints, and Literals
+     + Variable declaration and initialization
+     + Naming convention
+     + Types of variables such as local variables, instance variables, and static variables
+     + Scope and memory allocation of variables
+
+-> Methods in Java
+     + Methods in Java
+     + Use of method in Java
+     + Method declaration, the method signature
+     + Types of methods in Java: predefined method, user-defined methods: instance method, static method
+     + Calling of method
+     + Java main method
+     + Return type in Java
+
+-> Constructor in Java
+     + What is Constructor in Java?
+     + Types of Constructors: Default and parameterized constructors
+     + Java constructor overloading
+     + Constructor chaining in java
+     + Copy constructor in Java
+
+-> Modifiers in Java
+     + What is an Access modifier ad non-access modifier in Java?
+     + Types of access modifiers like private, default, protected, and public
+     + Types of non-access modifiers like abstract, final, native, static, Strictfp, synchronized modifier, transient, volatile.
+
+-> Static Keyword
+     + What is Static Keyword
+     + Static variable
+     + Static method
+     + Static block, instance block
+     + Static Nested Class in Java
+     + Difference between static variable and instance variable, static method, and instance method, static block, and instance block
+
+
+-> Final Keyword
+     + Final keyword
+     + Final variable
+     + Final method
+     + Final class
+
+-> Inner Class in Java
+     + What is Inner Class in Java?
+     + Types of Inner class in Java
+
+-> Super and this keyword
+     + Super Keyword
+     + Calling of superclass instance variable
+     + Superclass constructor
+     + Superclass method
+
+-> OOP concepts in Java:
+    + Classes
+    + Objects
+    + Encapsulation
+    + Abstraction
+    + Relationships - Has-a, Is-a
+    + Inheritance
+    + Generalization
+    + Method Overloading
+    + Method Overriding
+    + Polymorphism
+    + super Keyword
+    + Types of Inheritance
+    + Interfaces
+    + Compile-time and Run-time polymorphism
+    + Static and dynamic binding
+
+-> Java Garbage Collection
+
+-> Java Collections Framework:
+    + What is Collections Framework?
+    + List, Set, SortedSet, Queue, Deque, Map, Iterator, ListIterator, and Enumeration.
+    + ArrayList, LinkedList, HashSet, LinkedHashSet, TreeSet, ArrayDeque, PriorityDeque, EnumSet, AbstractCollection, AbstractList, AbstractQueue, AbstractSet, and AbstractSequentialList.
+    + Map, Map Entry, SortedMap, and NavigableMap
+    + HashMap, LinkedHashMap, TreeMap, IdentityHashMap, WeakHashMap, and EnumMap.
+    + Comparator, RandomAccess interfaces as well as Observable class.
+
+-> Input Output Stream
+
+    + FileOutputStream, FileInputStream
+    + BufferedOutputStream, BufferedInputStream
+    + SequenceInputStream
+    + ByteArrayOutputStream, ByteArrayInputStream
+    + DataOutputStream, DataInputStream
+    + Java FilterOutputStream, Java FilterInputStream
+    + Java ObjectStream, Java ObjectStreamField
+    + Console
+    + FilePermissionWriter, Reader, FileWriter, FileReader
+    + BufferedWriter, BufferedReader
+    + CharArrayReader, CharArrayWriter
+    + PrintStream, PrintWriter
+    + OutputStreamWriter, InputStreamReader
+    + PushbackInputStream, PushbackReader
+    + StringWriter, StringReader
+    + PipedWriter, PipedReader
+    + FilterWriter, FilterReader, File FileDescriptor, RandomAccessFile, and  java.util.Scanner.
+
+-> Serialization
+    + Serialization, Deserialization, and Java transient keyword.
+
+-> Java Annotations
+    + @Override
+    + @SuppressWarnings
+    + @Deprecated
+    + @Target
+    + @Retention
+    + @Inherited
+    + @Documented
+    + Java custom annotations
+    + Types of annotations.
+
+-> Exception Handling in Java
+    + Exception Handling in Java
+    + Try-catch block
+    + Multiple Catch Block
+    + Nested try block
+    + Finally block
+    + Throw Keyword
+    + Throws Keyword
+    + Throw vs Throws, Final vs Finally vs Finalize
+    + Exception Handling with Method Overriding Java Custom Exceptions
+
+
+-> Reflection in Java
+    + Reflection API
+    + NewInstance() & Determining the class object
+    + Javap tool, Creating javap tool
+    + Creating applet viewer
+    + Accessing private method from outside the class
+
+-> Threads in Java:
+    + Java multithreading
+    + Multithreading life cycle of a thread creating
+    + Thread scheduler
+    + Sleeping a thread, Start a thread twice
+    + Calling run() method
+    + Joining a thread
+    + Naming a thread
+    + Thread priority,
+    + Daemon thread
+    + Thread pool
+    + Thread group
+    + Shutdownhook
+    + Java Synchronisation: synchronized method, synchronized block, static synchronization
+    + Deadlock
+    + Inter-thread Communication
+    + Interrupting Thread
+
+-> JDBC
+    + JDBC Drivers
+    + Steps to connect to Database
+    + Connectivity with Oracle
+    + Connectivity with MySQL
+    + Connectivity with Access without DSN
+    + DriverManager
+    + Types of JDBC statements: Statement, Prepared statement, Callable statement
+    + Database Metadata, Resultset Metadata
+    + ResultSet, types of ResultSet,
+    + Storing image, Retrieving image
+    + Storing file, Retrieving file, Stored procedures, and functions
+    + Transaction Management
+    + Batch Processing
+    + JDBC New Features, Mini Project, and interview questions.
